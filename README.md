@@ -5,6 +5,7 @@ To Run PyTest test Cases: navigate to the outer pytest_exercise directory then r
   * The HTML report will be created on htmlcov directory as "index.html"
 
 To see DB changes must navigate to http://127.0.0.1:8000/admin/myapp/
+* Go to Bots DB Model
   * user: admin pw: 1
   * if it does not work create a admin user 
       * navigate to the outer pytest_exercise directory then run on cmd line "python manage.py createsuperuser" then create user then run "python manage.py runserver" afterwards
